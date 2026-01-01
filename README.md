@@ -1,3 +1,13 @@
+NAME: NUR AINA NAJWA BINTI AMAZAL
+STUDENT ID : 2023492172
+GROUP T5CDCS2703C
+LECTURER NAME: MUHAMMAD ATIF BIN RAMLAN
+
+BACKGROUND PROJECT
+This project is a web-based chat application built with Angular and Supabase. It allows users to log in securely using Google OAuth 2.0, send and receive messages in real-time, and manage their chat history. The frontend uses Angular’s component-based architecture and reactive forms for dynamic user interactions, while Supabase handles database storage, authentication, and real-time updates. Key features include creating, fetching, and deleting chat messages, as well as route protection to ensure only authenticated users can access the dashboard. This project demonstrates practical full-stack web development and real-time communication implementation.
+
+
+
 # NgChat
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
