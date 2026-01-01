@@ -1,0 +1,21 @@
+<!-- Add dropdown menu inside the @for loop -->
+<div class="dropdown">
+  <span (click)="openDropDown(msg)" class="mt-3 ms-5" type="button" id="dropdownMenuButton1"
+    data-bs-toggle="dropdown" aria-expanded="false">
+    <h3 class="mb-3">
+  Supa Chat 
+  <button (click)="logOut()" class="btn btn-secondary" style="float: right;">
+    Log Out
+  </button>
+</h3>
+
+  </span>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li>
+      <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Include modal at the bottom -->
+<app-modal></app-modal>
